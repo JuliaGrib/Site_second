@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container {
+    max-width: 1230px;
+    margin: auto;
+    width: 90%;
+}
+.header {
+    padding-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu1 ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu1 ul li {
+    padding-right: 20px;
+}
+.menu1 ul li:last-child {
+    padding-right: 0px;
+}
+
+.menu1 ul a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu2 ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu2 ul li {
+    padding-right: 20px;
+}
+.menu2 ul li:last-child {
+    padding-right: 0px;
+}
+.menu2 ul a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #808080;
+    text-decoration: none;
+}
+.main {
+    
+    text-align: center;
+}
+h1 {
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+.main-text {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: lowercase;
+    max-width: 268px;
+    margin: 0 auto;
+    padding-top: 26px;
+}
+.main-text:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    margin: auto;
+    margin-top: 26px;
+}
+.video {
+    max-width: 1230px;
+    margin: auto;
+    width: 90%;
+    height: 750px;
+}
+.content-text h3 {
+    max-width: 177px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+.content-text h3:first-of-type {
+    padding: 495px 0 0 0;
+}
+.content-text h3:last-of-type {
+    padding: 218px 0 0 0;
+}
+.content-text p {
+    max-width: 490px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.content-list {
+    display: flex;
+}
+.content-list ul {
+    list-style-type: none;
+    margin: 45px 130px 0 0;
+    padding: 0;
+}
+.content-list ul:last-child {
+    margin-right: 0px;
+}
+.content-list ul li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+.content-list ul li:last-child {
+    padding-bottom: 0px;
+}
+.color-list {
+    color:#E5E5E5;
+}
+.content {
+    display: flex;
+}
+.content-text {
+    margin-right: 340px;
+}
+.footer {
+    text-align: center;
+    margin: 228px 0 131px 0;
+}
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    margin: 40px 0 0 0;
+    padding: 0;
+
+}
+.footer ul li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+.footer ul li:last-child {
+    padding-right: 0px;
+}
+.footer p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #808080;
+    margin: 0;
+    padding: 28px 0 0 0;
+}
+.list {
+    max-width: 560px;
+    margin: 0 auto;
+}
+.content-img {
+    max-width: 100%;
+}
+.footer a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    max-width: 260px;
+    height: 60px;
+    margin: 20px auto 0 auto;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 20px;
+}
+.footer a:hover {
+    background: #FFFFFF;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .content-img {
+        display: none;
+    }
+}
