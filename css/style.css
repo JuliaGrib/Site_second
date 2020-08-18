@@ -221,8 +221,86 @@ h1 {
     color: #000;
 }
 
+@media (max-width: 1366px) {
+    .container {
+        max-width: 857px;
+    }
+    .content-img img {
+        max-width: 200px;
+    }
+    .content-text h3:first-of-type {
+        padding: 260px 0 0 0;
+    }
+    .content-text h3:last-of-type {
+        padding: 218px 0 0 0;
+    }
+    .content-text {
+        margin-right: 125px;
+    }
+    .content-list ul li {
+        font-size: 14px;
+
+    }
+    .content-list ul {
+        margin: 45px 70px 0 0;
+
+    }
+    .video {
+        height: 700px;
+    }
+}
 @media (max-width: 768px) {
-    .content-img {
-        display: none;
+    .container {
+        max-width: 600px;
+        border: 1px solid white;
+    }
+    h1 {
+        padding-top: 90px;
+        font-size: 50px;
+    }
+    .main-text {
+        padding-top: 15px;
+    }
+    .menu1 ul li {
+        padding-right: 16px;
+    }
+    .menu2 ul li {
+        padding-right: 16px;
+    }
+    .video {
+        height: 500px;
+    }
+    .content-img img {
+        max-width: 175px;
+    }
+    .content-text h3:first-of-type {
+        padding: 120px 0 0 0;
+    }
+    .content-text h3:last-of-type {
+        padding: 120px 0 0 0;
+    }
+    .content-text {
+        margin-right: 75px;
+    }
+    .content-list ul {
+        margin: 45px 40px 0 0;
+
+    }
+    .footer {
+        margin: 130px 0 130px 0;
+    }
+    .footer ul li {
+        font-size: 15px;
+        padding-right: 16px;
+    }
+    .list {
+        max-width: 455px;
+    }
+    .footer ul {
+        margin: 30px 0 0 0;    
+    }
+    .footer p {
+        font-size: 15px;
+        padding: 20px 0 0 0;
     }
 }
