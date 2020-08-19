@@ -252,7 +252,6 @@ h1 {
 @media (max-width: 768px) {
     .container {
         max-width: 600px;
-        border: 1px solid white;
     }
     h1 {
         padding-top: 90px;
@@ -302,5 +301,36 @@ h1 {
     .footer p {
         font-size: 15px;
         padding: 20px 0 0 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        display: none;
+    }
+    .main h1 {
+        padding-top: 50px;
+    }
+    
+    .video {
+        height: 340px;
+    }
+    .content-img {
+        display: none;
+    }
+    .content-text h3:first-of-type {
+        padding: 70px 0 0 0;
+    }
+    .content-text h3:last-of-type {
+        padding: 70px 0 0 0;
+    }
+    .content-text {
+        margin: 0 0 0 50px;
+    }
+    .content-text p {
+        max-width: 300px;
+    }
+    .footer {
+        margin: 100px 0 0 0;
     }
 }
