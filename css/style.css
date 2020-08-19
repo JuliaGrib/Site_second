@@ -220,6 +220,9 @@ h1 {
     background: #FFFFFF;
     color: #000;
 }
+.list-mob {
+    display: none;
+}
 
 @media (max-width: 1366px) {
     .container {
@@ -311,7 +314,6 @@ h1 {
     .main h1 {
         padding-top: 50px;
     }
-    
     .video {
         height: 340px;
     }
@@ -325,12 +327,67 @@ h1 {
         padding: 70px 0 0 0;
     }
     .content-text {
-        margin: 0 0 0 50px;
+        margin: 0 7px 0 20px;
     }
     .content-text p {
         max-width: 300px;
     }
     .footer {
         margin: 100px 0 0 0;
+    }
+    .list {
+        display: none;
+    }
+    .list-mob {
+        display: block;
+    }
+    .list-mob ul{
+        
+        justify-content: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .list-mob ul li{
+        margin: 0;
+        padding: 25px 36px 0 0;
+    }
+    .footer a {
+        max-width: 170px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 360px) {
+    .main h1 {
+        font-size: 41px;
+        line-height: 45px;
+    }
+    .video {
+        height: 270px;
+    }
+    .main-text:after {
+        height: 40px;
+    }
+    .content-text h3:first-of-type {
+        padding: 50px 0 0 0;
+        font-size: 20px;
+    }
+    .content-text h3:last-of-type {
+        padding: 50px 0 0 0;
+        font-size: 20px;
+    }
+    .content-list ul {
+        margin: 29px 18px 0 0;
+    }
+    .content-list ul li {
+        font-size: 12px;
+        padding-bottom: 16px;
+    }
+    .content-text p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .footer {
+        margin: 60px 0 0 0;
     }
 }
